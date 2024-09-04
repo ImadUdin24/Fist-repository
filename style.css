@@ -1,0 +1,97 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 80%;
+  margin: auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+.article {
+  margin: 20px 0;
+}
+
+.article h1 {
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 500;
+}
+
+.article .column {
+  justify-content: space-between;
+  display: flex;
+}
+
+.article .card {
+  width: 30%;
+  background: rgb(243, 242, 242);
+}
+
+.article .card img {
+  height: 200px;
+  width: 100%;
+}
+
+.article .content {
+  padding: 15px;
+}
+.article .content h3 {
+  font-weight: 500;
+  padding: 10px;
+}
+
+.article .content p {
+  padding: 5px 10px;
+  line-height: 1.5;
+}
+
+.article .content a {
+  padding: 10px;
+}
+
+.service {
+  margin: 20px 0;
+}
+
+.service h1 {
+  text-align: center;
+  padding: 40px 0;
+  font-weight: 500;
+}
+
+.service .column {
+  justify-content: space-between;
+  display: flex;
+}
+
+.service .card {
+  width: 20%;
+  background: rgb(243, 242, 242);
+}
+
+.service .card .icn {
+  display: flex;
+  padding: 10px;
+  margin: auto;
+  font-size: 40px;
+}
+
+.service .content {
+  padding: 15px;
+}
+.service .content h3 {
+  font-weight: 500;
+  padding: 10px;
+}
+
+.service .content p {
+  padding: 5px 10px;
+  line-height: 1.5;
+}
+
+.service .content a {
+  padding: 10px;
+}
